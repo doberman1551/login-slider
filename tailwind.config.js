@@ -7,6 +7,9 @@ module.exports = {
       zIndex: {
         100: 100,
       },
+      colors:{
+        primary:"#00AEEF"
+      },
 
       keyframes: {
         show: {

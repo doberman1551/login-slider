@@ -7,7 +7,7 @@ import RightOverlayContent from "./RightOverlayContent";
 const LoginPage = () => {
   const [isAnimated, setIsAnimated] = useState(false);
   const overlayBg =
-    "bg-gradient-to-r from-blue-800 via-purple-800 to-indigo-800";
+    "bg-black";
 
   return (
     <div className="h-4/5 w-4/5 bg-white relative overflow-hidden rounded-lg">

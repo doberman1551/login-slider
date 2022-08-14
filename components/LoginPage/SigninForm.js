@@ -10,9 +10,14 @@ const SigninForm = () => {
         <div className="p-8 flex-1">
           <div className="mx-auto overflow-hidden">
             <div className="p-8">
-              <h1 className="text-5xl font-bold text-indigo-600">
-                Welcome back!
+              <h1 className="text-4xl font-bold text-black">
+                Влезте в профила си
               </h1>
+              <div className="grid grid-cols-6 gap-x-2 mt-2">
+                <button className=	"col-span-3 bg-blue">Вход с Facebook</button>
+                <button className=	"col-span-3 bg-teal"> Вход с Google</button>
+                
+                </div>
 
               <form className="mt-12" action="" method="POST">
                 <div className="relative">
@@ -48,8 +53,8 @@ const SigninForm = () => {
 
                 <input
                   type="submit"
-                  value="Sign in"
-                  className="mt-20 px-8 py-4 uppercase rounded-full bg-indigo-600 hover:bg-indigo-500 text-white font-semibold text-center block w-full focus:outline-none focus:ring focus:ring-offset-2 focus:ring-indigo-500 focus:ring-opacity-80 cursor-pointer"
+                  value="Вход"
+                  className="mt-20 px-8 py-4 uppercase rounded-full bg-primary hover:opacity-75 text-white font-semibold text-center block w-full focus:outline-none focus:ring focus:ring-offset-2 focus:ring-indigo-500 focus:ring-opacity-80 cursor-pointer"
                 />
               </form>
               <a
@@ -57,7 +62,7 @@ const SigninForm = () => {
                 className="mt-4 block text-sm text-center font-medium text-indigo-600 hover:underline focus:outline-none focus:ring-2 focus:ring-indigo-500"
               >
                 {" "}
-                Forgot your password?{" "}
+                Забравена Парола{" "}
               </a>
             </div>
           </div>

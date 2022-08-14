@@ -10,8 +10,8 @@ const SignupForm = () => {
         <div className="p-8 flex-1">
           <div className="mx-auto overflow-hidden">
             <div className="p-8">
-              <h1 className="text-5xl font-bold text-indigo-600">
-                Create account
+              <h1 className="text-5xl font-bold text-black">
+              Регистрация
               </h1>
 
               <form className="mt-12" action="" method="POST">
@@ -63,8 +63,8 @@ const SignupForm = () => {
 
                 <input
                   type="submit"
-                  value="Sign up"
-                  className="mt-20 px-8 py-4 uppercase rounded-full bg-indigo-600 hover:bg-indigo-500 text-white font-semibold text-center block w-full focus:outline-none focus:ring focus:ring-offset-2 focus:ring-indigo-500 focus:ring-opacity-80 cursor-pointer"
+                  value="Регистрация"
+                  className="mt-20 px-8 py-4 uppercase rounded-full bg-primary hover:opacity-75 text-white font-semibold text-center block w-full focus:outline-none focus:ring focus:ring-offset-2 focus:ring-indigo-500 focus:ring-opacity-80 cursor-pointer"
                 />
               </form>
             </div>
